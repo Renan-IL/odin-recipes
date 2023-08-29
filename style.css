@@ -1,22 +1,46 @@
-div {
-    background-color: green;
+h1{
+    font-size: 32px;
+}
+
+.header {
     color: white;
     text-align: center;
     font-weight: 700;
-    font-size: 32px;
 }
 
-p{
+.header.spaghetti {
+    background-color: red;
+}   
+
+.feijoada {
     background-color: blue;
+}
+
+.cheese {
+    background-color: blue;
+}
+
+p {
     color: white;
+    text-align: center;
     font-size: 18px;
 }
 
-h1 {
+#feijoada {
     background-color: yellowgreen;
-    color: white;
-    text-align: center;
-    font-size: 32px;
+}
+
+#spaghetti {
+    background-color: green;
+}
+
+#cheese {
+    background-color: red;
+}
+
+img {
+    height: auto;
+    width: 500px;
 }
 
 li {
