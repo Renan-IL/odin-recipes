@@ -1,48 +1,100 @@
-h1{
+*{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: rgb(247, 202, 201);
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    border: 2px solid Blue;
+    padding: 8px;
+    background-color:whitesmoke
+}
+
+h1 {
     font-size: 32px;
+}
+
+p {
+    text-align: center;
+    margin: 0px;
+}
+
+img {
+    display: block;
+    height: auto;
+    width: 700px;
+    margin: 0 auto;
+}
+
+#indexImage{
+    width: 400px;
+    margin: 0 auto;
+}
+
+ol,ul {
+    margin: 2px auto;
+}
+
+li {
+    font-size: 18px;
+    padding: 8px;
+    margin: 8px;
+    border: 1px solid black;
+}
+
+.indexRecipies {
+    background-color: white;
 }
 
 .header {
     color: white;
     text-align: center;
     font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 4px auto;
+}
+
+.titles {
+    margin-bottom: 4px;
+    margin-left: 4px;
+}
+
+.description{
+    color: white
+}
+
+.header.index{
+    display: block;
+    color: black;
+    background-color: #34568B;
 }
 
 .header.spaghetti {
     background-color: red;
 }   
 
+.header.feijoada {
+    background-color: blue;
+}
+
+.header.cheese {
+    background-color: blue;
+}
+
 .feijoada {
-    background-color: blue;
-}
-
-.cheese {
-    background-color: blue;
-}
-
-p {
-    color: white;
-    text-align: center;
-    font-size: 18px;
-}
-
-#feijoada {
     background-color: yellowgreen;
 }
 
-#spaghetti {
+.spaghetti {
     background-color: green;
 }
 
-#cheese {
+.cheese {
     background-color: red;
-}
-
-img {
-    height: auto;
-    width: 500px;
-}
-
-li {
-    font-size: 18px;
 }
